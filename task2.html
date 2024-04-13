@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" 
+integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="task2_style.css">
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Service</a></li>
+                <li><a href="#">Types</a></li>
+                <li><a href="#">FAQ</a></li>
+            </ul>
+            <img class="logo" src="logo.png" alt="">
+        </nav>
+        <div class="main-content">
+            <div class="image-phone">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div><img src="img.jpg" alt=""></div> 
+                    </div> 
+                </div>
+            </div>
+            <div class="main-text">
+                <h1>I phone 11</h1>
+                <p>The iPhone 11 is a smartphone designed by Apple that was unveiled in 2019.</p>
+                <button>Know More</button>
+            </div>
+        </div>
+        <div class="right">
+            <div class="box">
+                <div class="image">
+                    <img src="camera.png" alt="">
+                </div>
+                <div class="inner-box">
+                    <h3>Camera</h3>
+                    <p>Dual 12MP Wide and Ultra Wide cameras</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="capacity.png" alt="">
+                </div>
+                <div class="inner-box">
+                    <h3>Capacity</h3>
+                    <p>64GB, 128GB, 256GB</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="color.png" alt="">
+                </div>
+                <div class="inner-box">
+                    <h3>Colors</h3>
+                    <p>Black, Green, Yellow, Purple, Red, White</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="social-links">
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="far fa-envelope"></i>
+        </div>
+    </div>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          slidesPerView: 1,
+          spaceBetween: 30,
+          loop: true,
+        });
+      </script>
+</body>
+
+</html>
